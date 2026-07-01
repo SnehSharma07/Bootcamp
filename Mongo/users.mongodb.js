@@ -24,5 +24,9 @@ db.college.insertMany([
         "email": "priyapatel417@gmail.com"
     }
 ])
-db.college.find()
+//db.college.find()
 //db.college.find({"name": "Rohit Sharma"})
+//db.college.find({"rollno": 2301010215})
+//db.college.find({"section": "D"})
+//db.college.find({"email": "snehsharma415@gmail.com"})
+db.college.find({"name": "Rohit Sharma", "section": "G"})
